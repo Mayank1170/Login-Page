@@ -67,23 +67,15 @@ const InnerContainer2 = styled('div')({
   top: '10%',
   left: '12%',
   right: '7%',
-  // sm:right:'7%'
-
 })
 const Title = styled('h1')({
   fontSize: '2rem',
   fontWeight: 'bold',
-  // '@media (min-width: 600px)': {
-  //   fontSize: '2.5rem',
-  // },
 });
 
 const Subtitle = styled('h1')({
   fontSize: '1rem',
   marginTop: '12px',
-  // '@media (min-width: 600px)': {
-  //   fontSize: '1.375rem',
-  // },
 });
 
 const SubContainer = styled('div')({
@@ -94,17 +86,10 @@ const SignInTitle = styled('h1')({
   fontSize: '2rem',
   fontWeight: 'bold',
   marginTop: '2rem',
-  // '@media (min-width: 600px)': {
-  //   fontSize: '2.5rem',
-  // },
 });
 
 const SignInSubtitle = styled('h1')({
-  // fontSize: '1rem',
   marginTop: '4%',
-  // '@media (min-width: 600px)': {
-  //   fontSize: '1.375rem',
-  // },
 });
 
 const InnerDiv1 = styled('div')({
@@ -136,7 +121,7 @@ const SignInButton = styled(Button)({
   borderRadius: '9999px',
   fontWeight: 'bold',
   '&:hover': {
-    backgroundColor: '#2196f3', // Change the hover color if needed
+    backgroundColor: '#2196f3',
   },
 });
 
@@ -165,7 +150,6 @@ function App(): JSX.Element {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    // Handle form submission logic here
   };
 
   return (
