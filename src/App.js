@@ -18,7 +18,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
   };
 
   return (
